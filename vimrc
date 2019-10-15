@@ -21,7 +21,6 @@
 " 
 " git clone https://github.com/scrooloose/nerdtree.git nerdtree
 "
-" Un autre : 
 "
 set nu
 set nocompatible
