@@ -16,7 +16,8 @@ cd ~/.vim
 git clone git@github.com:gdelanoy/vim.git .
 cd
 ln -s ~/.vim/vimrc .vimrc
+```
 
 
-Enjoy ;-)
+### Enjoy ;-)
 
