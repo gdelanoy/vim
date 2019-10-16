@@ -1,0 +1,1735 @@
+# Ce fichier viminfo a été généré par Vim 8.0.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0~/fzf
+
+# Dernier motif de recherche Substitue  :
+~MSle0&WAV
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:q!
+|2,0,1571170834,,"q!"
+:q
+|2,0,1571167445,,"q"
+:wq
+|2,0,1571167222,,"wq"
+:PluginInstall
+|2,0,1571166625,,"PluginInstall"
+:w
+|2,0,1570875096,,"w"
+:autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+|2,0,1570655868,,"autocmd VimEnter * if argc() == 0 && !exists(\"s:std_in\") | NERDTree | endif"
+:autocmd vimenter * NERDTree
+|2,0,1570655848,,"autocmd vimenter * NERDTree"
+:help NERDTree.txt
+|2,0,1570655808,,"help NERDTree.txt"
+:Helptags
+|2,0,1570655797,,"Helptags"
+:helptags ~/.vim/bundle/nerdtree/doc/
+|2,0,1570655774,,"helptags ~/.vim/bundle/nerdtree/doc/"
+:helptags ~/.vim/bundle/nerdtree/doc/ 
+|2,0,1570655402,,"helptags ~/.vim/bundle/nerdtree/doc/ "
+:Explore
+|2,0,1570655263,,"Explore"
+:explore
+|2,0,1570655259,,"explore"
+:s
+|2,0,1570390600,,"s"
+:set nonu
+|2,0,1569677786,,"set nonu"
+:q:
+|2,0,1561583792,,"q:"
+:571
+|2,0,1561211006,,"571"
+:445
+|2,0,1561210952,,"445"
+:helptags vim-airline
+|2,0,1561209301,,"helptags vim-airline"
+:helptags airline
+|2,0,1561209285,,"helptags airline"
+:helptags
+|2,0,1561209271,,"helptags"
+:help airline
+|2,0,1561209254,,"help airline"
+:NeoBundle 'vim-airline/vim-airline'
+|2,0,1561203274,,"NeoBundle 'vim-airline/vim-airline'"
+:wq!
+|2,0,1561155237,,"wq!"
+:.,$d
+|2,0,1554501907,,".,$d"
+:x
+|2,0,1543659192,,"x"
+:%s/WAV/Sons/g
+|2,0,1543169323,,"%s/WAV/Sons/g"
+:!!w
+|2,0,1542459439,,"!!w"
+:!w
+|2,0,1541870059,,"!w"
+:w /tmp/truc
+|2,0,1541157761,,"w /tmp/truc"
+:smile
+|2,0,1541157714,,"smile"
+:execute 'silent! write !sudo tee % >/dev/null' | edit!
+|2,0,1540663908,,"execute 'silent! write !sudo tee % >/dev/null' | edit!"
+:cd
+|2,0,1539024811,,"cd"
+:tw=78:ts=8:ft=help:norl:
+|2,0,1532272804,,"tw=78:ts=8:ft=help:norl:"
+:help 42
+|2,0,1532272767,,"help 42"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?/fzf
+|2,1,1571080275,47,"fzf"
+? \<rsync\>
+|2,1,1570875077,,"\\<rsync\\>"
+?/.vim/bundle/nerdtree/doc/
+|2,1,1570655750,47,".vim/bundle/nerdtree/doc/"
+??\a
+|2,1,1570655280,63,"\\a"
+? @$
+|2,1,1570655280,,"@$"
+?/hop
+|2,1,1569866116,47,"hop"
+?/which
+|2,1,1569790982,47,"which"
+?/safe
+|2,1,1569790971,47,"safe"
+?/tiret
+|2,1,1569666736,47,"tiret"
+?/tireli
+|2,1,1569666609,47,"tireli"
+?/youtu
+|2,1,1569605539,47,"youtu"
+?/yout
+|2,1,1569605527,47,"yout"
+?/a_cmd
+|2,1,1569101225,47,"a_cmd"
+?/jou
+|2,1,1569015094,47,"jou"
+?/joue
+|2,1,1569015024,47,"joue"
+?/tue
+|2,1,1568915228,47,"tue"
+?/fkill
+|2,1,1568749753,47,"fkill"
+?/fd
+|2,1,1568571443,47,"fd"
+?/dodo
+|2,1,1565434440,47,"dodo"
+?/{}
+|2,1,1561282403,47,"{}"
+?/ {}
+|2,1,1561281204,47," {}"
+?/elptag
+|2,1,1561203137,47,"elptag"
+?/close
+|2,1,1560110256,47,"close"
+?/sudo
+|2,1,1560008268,47,"sudo"
+?/Rigole
+|2,1,1559929546,47,"Rigole"
+?/igo
+|2,1,1559489302,47,"igo"
+?/igoler
+|2,1,1559489257,47,"igoler"
+?/swap
+|2,1,1559218688,47,"swap"
+?/mem
+|2,1,1557591726,47,"mem"
+? \<C\>
+|2,1,1556039186,,"\\<C\\>"
+?/youtube
+|2,1,1555060155,47,"youtube"
+?/emacs
+|2,1,1554384788,47,"emacs"
+?/emac
+|2,1,1554384438,47,"emac"
+?/gsgfdbhh
+|2,1,1549966351,47,"gsgfdbhh"
+? \<30\>
+|2,1,1549966336,,"\\<30\\>"
+?/rigole
+|2,1,1549188516,47,"rigole"
+? \<syntax\>
+|2,1,1547501780,,"\\<syntax\\>"
+?/biggest
+|2,1,1546982383,47,"biggest"
+?/maj
+|2,1,1546089933,47,"maj"
+?/see
+|2,1,1545678068,47,"see"
+?/folders
+|2,1,1544871639,47,"folders"
+?/top-comm
+|2,1,1544871592,47,"top-comm"
+? WAV
+|2,1,1543169323,,"WAV"
+?/dir_
+|2,1,1543167451,47,"dir_"
+?/width
+|2,1,1541200958,47,"width"
+?/LOG
+|2,1,1538315144,47,"LOG"
+?/confc
+|2,1,1537820658,47,"confc"
+?/facebook
+|2,1,1529301467,47,"facebook"
+?/swappin
+|2,1,1528545322,47,"swappin"
+?/swapin
+|2,1,1528545312,47,"swapin"
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+"0	LINE	0
+	rsync -vurcz --exclude 'Temp' --progress --no-p --size-only --delete /mnt/donnees/films/ /mnt/syno/tizzbird/films/ && echo "Sauvegarde de mes films réalisée" |tee logger
+|3,0,0,1,1,0,1570879249,"rsync -vurcz --exclude 'Temp' --progress --no-p --size-only --delete /mnt/donnees/films/ /mnt/syno/tizzbird/films/ && echo \"Sauvegarde de mes films réalisée\" |tee logger"
+""1	LINE	0
+	" Un autre : 
+|3,1,1,1,1,0,1571166823,"\" Un autre : "
+"2	LINE	0
+	sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/usbshare1 /mnt/syno/tizzbird -o allow_other 2>/dev/null # films
+|3,0,2,1,1,0,1570899837,"sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/usbshare1 /mnt/syno/tizzbird -o allow_other 2>/dev/null # films"
+"3	LINE	0
+	#
+|3,0,3,1,1,0,1570899837,"#"
+"4	LINE	0
+	sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/sauvegardes /mnt/syno/sauvegardes -o allow_other
+|3,0,4,1,1,0,1570899835,"sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/sauvegardes /mnt/syno/sauvegardes -o allow_other"
+"5	LINE	0
+	# 
+|3,0,5,1,1,0,1570899835,"# "
+"6	LINE	0
+	sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/offsite /mnt/syno/offsite -o allow_other
+|3,0,6,1,1,0,1570899834,"sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/offsite /mnt/syno/offsite -o allow_other"
+"7	LINE	0
+	# 
+|3,0,7,1,1,0,1570899834,"# "
+"8	LINE	0
+	sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/IT /mnt/syno/IT -o allow_other
+|3,0,8,1,1,0,1570899833,"sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 guillaume@syno:/IT /mnt/syno/IT -o allow_other"
+"9	LINE	0
+	# 
+|3,0,9,1,1,0,1570899833,"# "
+"d	CHAR	0
+	egd
+|3,0,13,0,1,0,1541157749,"egd"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1570897095," "
+
+# Marques dans le fichier :
+'0  4  0  ~/NERD_tree_1
+|4,48,4,0,1571174447,"~/NERD_tree_1"
+'1  1  0  ~/.zshrc
+|4,49,1,0,1571170834,"~/.zshrc"
+'2  1  0  ~/.zshenv
+|4,50,1,0,1571170623,"~/.zshenv"
+'3  37  0  /mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended
+|4,51,37,0,1571170328,"/mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended"
+'4  1  0  ~/.vim/vimrc
+|4,52,1,0,1571167559,"~/.vim/vimrc"
+'5  1  0  ~/.vim/vimrc
+|4,53,1,0,1571167466,"~/.vim/vimrc"
+'6  1  0  /tmp/vimrc
+|4,54,1,0,1571167445,"/tmp/vimrc"
+'7  1  0  ~/.vim/vimrc
+|4,55,1,0,1571167236,"~/.vim/vimrc"
+'8  1  0  ~/.vim/vimrc
+|4,56,1,0,1571167236,"~/.vim/vimrc"
+'9  179  0  ~/.vim/vimrc
+|4,57,179,0,1571167222,"~/.vim/vimrc"
+
+# Liste de sauts (le plus récent en premier) :
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1571174447,"~/NERD_tree_1"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1571170834,"~/.zshrc"
+-'  165  2  ~/NERD_tree_1
+|4,39,165,2,1571170632,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1571170632,"~/NERD_tree_1"
+-'  1  0  ~/.zshenv
+|4,39,1,0,1571170623,"~/.zshenv"
+-'  150  0  ~/NERD_tree_1
+|4,39,150,0,1571170532,"~/NERD_tree_1"
+-'  165  2  ~/NERD_tree_1
+|4,39,165,2,1571170364,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1571170364,"~/NERD_tree_1"
+-'  37  0  /mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended
+|4,39,37,0,1571170328,"/mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended"
+-'  37  0  /mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended
+|4,39,37,0,1571170328,"/mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended"
+-'  1  0  /mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended
+|4,39,1,0,1571170319,"/mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended"
+-'  1  0  /mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended
+|4,39,1,0,1571170319,"/mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167559,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167559,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167559,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167559,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167466,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167466,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167466,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167466,"~/.vim/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  /tmp/vimrc
+|4,39,1,0,1571167445,"/tmp/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571167236,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571167222,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166963,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  179  0  ~/.vim/vimrc
+|4,39,179,0,1571166853,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1571166715,"~/.vim/vimrc"
+-'  44  0  ~/.vim/vimrc
+|4,39,44,0,1571166696,"~/.vim/vimrc"
+-'  45  0  ~/.vim/vimrc
+|4,39,45,0,1571166696,"~/.vim/vimrc"
+-'  44  0  ~/.vim/vimrc
+|4,39,44,0,1571166696,"~/.vim/vimrc"
+-'  45  0  ~/.vim/vimrc
+|4,39,45,0,1571166696,"~/.vim/vimrc"
+-'  44  0  ~/.vim/vimrc
+|4,39,44,0,1571166696,"~/.vim/vimrc"
+-'  45  0  ~/.vim/vimrc
+|4,39,45,0,1571166696,"~/.vim/vimrc"
+-'  44  0  ~/.vim/vimrc
+|4,39,44,0,1571166696,"~/.vim/vimrc"
+-'  45  0  ~/.vim/vimrc
+|4,39,45,0,1571166696,"~/.vim/vimrc"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.zshrc
+	*	1571170832	0
+	"	1	0
+	^	2	137
+	.	2	136
+	+	12	0
+	+	11	1
+	+	12	1
+	+	12	23
+	+	12	9
+	+	33	4
+	+	26	0
+	+	27	0
+	+	30	0
+	+	32	0
+	+	63	0
+	+	36	22
+	+	51	35
+	+	53	80
+	+	55	0
+	+	60	0
+	+	498	1
+	+	498	0
+	+	498	1
+	+	498	0
+	+	624	0
+	+	272	0
+	+	271	18
+	+	165	24
+	+	129	0
+	+	135	0
+	+	139	0
+	+	141	0
+	+	122	0
+	+	171	1
+	+	172	1
+	+	171	0
+	+	172	0
+	+	12	0
+	+	79	28
+	+	231	0
+	+	205	28
+	+	204	26
+	+	211	16
+	+	214	15
+	+	211	11
+	+	212	13
+	+	213	22
+	+	214	21
+	+	216	0
+	+	209	75
+	+	210	0
+	+	216	17
+	+	224	19
+	+	218	0
+	+	217	0
+	+	219	1
+	+	218	10
+	+	222	4
+	+	224	0
+	+	230	20
+	+	232	0
+	+	231	20
+	+	232	23
+	+	233	18
+	+	258	0
+	+	234	10
+	+	227	25
+	+	236	18
+	+	237	19
+	+	239	23
+	+	248	21
+	+	249	14
+	+	248	15
+	+	249	0
+	+	250	0
+	+	264	0
+	+	262	0
+	+	251	42
+	+	254	56
+	+	257	42
+	+	258	0
+	+	248	0
+	+	249	0
+	+	240	0
+	+	79	27
+	+	208	0
+	+	259	0
+	+	241	0
+	+	240	36
+	+	242	18
+	+	243	24
+	+	246	0
+	+	245	36
+	+	247	0
+	+	595	0
+	+	653	58
+	+	2	136
+	p	261	0
+
+> ~/NERD_tree_1
+	*	1571170636	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.zshenv
+	*	1571170615	0
+	"	1	0
+
+> ~/.dircolors
+	*	1571170470	0
+	"	100	0
+	^	38	20
+	.	38	19
+	+	38	0
+	+	37	21
+	+	38	14
+	+	37	26
+	+	38	19
+
+> /mnt/donnees/nuages/pcloud/Nainformatique/backup/etc/zsh/newuser.zshrc.recommended
+	*	1571170326	0
+	"	37	0
+
+> ~/.vim/vimrc
+	*	1571167552	0
+	"	1	0
+	.	24	0
+	+	24	0
+
+> ~/.vim/NERD_tree_1
+	*	1571167547	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /tmp/vimrc
+	*	1571167443	0
+	"	1	0
+
+> ~/.bashrc
+	*	1571082800	0
+	"	454	16
+	^	454	17
+	.	454	16
+	+	150	31
+	+	149	33
+	+	150	0
+	+	237	0
+	+	238	0
+	+	389	0
+	+	222	16
+	+	231	36
+	+	321	0
+	+	327	0
+	+	362	1
+	+	327	0
+	+	328	0
+	+	329	0
+	+	362	0
+	+	488	0
+	+	522	0
+	+	609	0
+	+	530	22
+	+	458	33
+	+	459	0
+	+	451	52
+	+	5	110
+	+	248	0
+	+	596	1
+	+	564	0
+	+	563	51
+	+	564	0
+	+	563	52
+	+	562	37
+	+	512	40
+	+	247	1
+	+	248	1
+	+	249	1
+	+	245	78
+	+	246	7
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	1
+	+	512	0
+	+	513	30
+	+	514	26
+	+	536	22
+	+	537	24
+	+	538	26
+	+	539	22
+	+	540	26
+	+	478	1
+	+	622	1
+	+	702	7
+	+	746	0
+	+	751	0
+	+	748	0
+	+	746	63
+	+	748	16
+	+	499	17
+	+	748	43
+	+	749	24
+	+	793	0
+	+	792	40
+	+	748	39
+	+	749	32
+	+	536	20
+	+	537	22
+	+	538	24
+	+	539	20
+	+	540	24
+	+	499	20
+	+	215	1
+	+	163	0
+	+	164	0
+	+	26	114
+	+	26	22
+	+	24	31
+	+	26	122
+	+	30	36
+	+	761	0
+	+	28	52
+	+	29	49
+	+	27	59
+	+	28	24
+	+	27	24
+	+	28	24
+	+	499	18
+	+	748	124
+	+	748	39
+	+	26	136
+	+	26	46
+	+	26	139
+	+	748	97
+	+	562	33
+	+	556	58
+	+	536	12
+	+	537	15
+	+	538	16
+	+	539	12
+	+	540	16
+	+	5	160
+	+	454	16
+
+> ~/.scripts/bin/surserveur
+	*	1570899850	0
+	"	6	19
+	^	6	20
+	.	6	20
+	+	2	0
+	+	3	97
+	+	5	0
+	+	6	20
+
+> ~/.scripts/backup/backup_films.sh
+	*	1570897114	0
+	"	24	0
+	^	24	0
+	.	23	6
+	+	5	81
+	+	7	15
+	+	19	1
+	+	19	36
+	+	19	0
+	+	19	20
+	+	24	0
+	+	19	0
+	+	22	0
+	+	19	1
+	+	22	20
+	+	5	1
+	+	6	4
+	+	7	1
+	+	19	79
+	+	22	1
+	+	20	0
+	+	19	1
+	+	20	21
+	+	21	56
+	+	5	0
+	+	6	0
+	+	7	0
+	+	20	1
+	+	9	0
+	+	17	0
+	+	10	5
+	+	9	0
+	+	11	0
+	+	14	0
+	+	13	34
+	+	15	101
+	+	16	58
+	+	15	67
+	+	13	1
+	+	15	0
+	+	9	0
+	+	11	0
+	+	17	0
+	+	23	6
+
+> ~/.vimrc
+	*	1570655880	0
+	"	2	0
+	^	4	0
+	.	2	1
+	+	5	16
+	+	1	0
+	+	7	71
+	+	1	1
+	+	4	1
+	+	5	1
+	+	6	0
+	+	182	5
+	+	35	25
+	+	8	0
+	+	37	0
+	+	38	75
+	+	40	28
+	+	3	1
+	+	2	1
+
+> ~/chezflop.py
+	*	1570645465	0
+	"	31	24
+	^	31	25
+	.	31	24
+	+	31	24
+
+> ~/.scripts/bin/.zshrc
+	*	1570481282	0
+	"	1	0
+
+> ~/Setup_Voyager.txt
+	*	1570396182	0
+	"	57	0
+	^	57	0
+	.	56	34
+	+	26	0
+	+	17	22
+	+	19	22
+	+	19	45
+	+	22	0
+	+	26	0
+	+	22	0
+	+	26	0
+	+	24	0
+	+	21	16
+	+	26	39
+	+	72	0
+	+	30	84
+	+	34	0
+	+	38	58
+	+	42	20
+	+	60	0
+	+	44	39
+	+	45	0
+	+	43	0
+	+	46	31
+	+	45	40
+	+	46	55
+	+	47	0
+	+	46	55
+	+	47	0
+	+	52	28
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	56	34
+
+> /usr/local/bin/safe
+	*	1569791063	0
+	"	13	1
+	^	13	2
+	.	13	1
+	+	3	27
+	+	5	0
+	+	16	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	4	1
+	+	5	1
+	+	13	1
+
+> /etc/hosts
+	*	1569777942	0
+	"	37	0
+	^	37	0
+	.	36	41
+	+	1	0
+	+	1	19
+	+	43168	0
+	+	41750	19
+	+	39	8
+	+	1	0
+	+	25	0
+	+	24	0
+	+	1	0
+	+	27	0
+	+	28	44
+	+	29	30
+	+	33	42
+	+	30	0
+	+	31	0
+	+	30	0
+	+	35	0
+	+	34	0
+	+	37	0
+	+	35	10
+	+	42	0
+	+	44	0
+	+	47	0
+	+	44	1
+	+	52	0
+	+	53	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	63	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	12	48
+	+	13	29
+	+	12	29
+	+	13	36
+	+	36	41
+
+> /tmp/root/.zshrc
+	*	1569675964	0
+	"	590	0
+	.	589	16
+	+	585	12
+	+	586	14
+	+	587	16
+	+	588	12
+	+	589	16
+
+> ~/.scripts/byobu-opensession.sh
+	*	1569675958	0
+	"	1	0
+	^	111	0
+	.	61	78
+	+	91	32
+	+	74	0
+	+	87	0
+	+	88	0
+	+	89	0
+	+	90	0
+	+	91	0
+	+	94	32
+	+	94	0
+	+	72	0
+	+	61	41
+	+	56	33
+	+	57	0
+	+	56	0
+	+	55	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	1
+	+	69	28
+	+	61	0
+	+	72	0
+	+	74	32
+	+	94	0
+	+	48	74
+	+	20	27
+	+	20	40
+	+	1	1
+	+	20	53
+	+	62	0
+	+	71	0
+	+	76	0
+	+	85	0
+	+	76	39
+	+	79	30
+	+	81	40
+	+	84	0
+	+	83	33
+	+	84	0
+	+	83	31
+	+	85	34
+	+	86	0
+	+	85	35
+	+	91	0
+	+	76	38
+	+	83	65
+	+	91	0
+	+	92	0
+	+	93	0
+	+	91	33
+	+	70	43
+	+	74	0
+	+	76	0
+	+	75	0
+	+	74	25
+	+	20	34
+	+	104	29
+	+	4	0
+	+	5	0
+	+	20	0
+	+	20	40
+	+	20	89
+	+	29	30
+	+	98	2
+	+	96	38
+	+	29	30
+	+	22	0
+	+	22	13
+	+	17	0
+	+	13	19
+	+	22	0
+	+	10	0
+	+	8	0
+	+	9	32
+	+	10	25
+	+	11	25
+	+	15	0
+	+	16	31
+	+	18	0
+	+	21	35
+	+	23	0
+	+	12	0
+	+	20	0
+	+	29	0
+	+	40	0
+	+	20	0
+	+	9	0
+	+	7	0
+	+	18	25
+	+	19	25
+	+	20	26
+	+	21	26
+	+	12	0
+	+	20	0
+	+	26	30
+	+	36	29
+	+	61	78
+	p	83	28
+
+> ~/.git/fzf/shell/completion.bash
+	*	1569101503	0
+	"	64	0
+	^	220	46
+	.	282	45
+	+	282	48
+	+	281	48
+	+	282	45
+
+> /tmp/calcurse-note.uw7VWl
+	*	1569071482	0
+	"	1	0
+
+> /usr/local/bin/fk
+	*	1568921720	0
+	"	3	113
+	^	3	114
+	.	3	112
+	+	16	0
+	+	3	112
+
+> /usr/local/bin/fkill
+	*	1568748146	0
+	"	5	52
+	^	5	53
+	.	5	52
+	+	2	5
+	+	16	4
+	+	5	137
+	+	7	130
+	+	5	52
+
+> /mnt/donnees/downloads/guillaume/.bashrc
+	*	1568667243	0
+	"	1	0
+
+> /etc/sudoers.tmp
+	*	1568580146	0
+	"	28	176
+	^	28	177
+	.	28	176
+	+	28	119
+	+	30	138
+	+	32	0
+	+	30	155
+	+	28	176
+
+> ~/.ssh/known_hosts
+	*	1568577441	0
+	"	14	0
+	.	14	0
+	+	14	0
+	+	16	0
+	+	14	0
+
+> /tmp/crontab.lFFjc9/crontab
+	*	1568574056	0
+	"	25	0
+	^	25	0
+	.	24	0
+	+	1	15
+	+	24	0
+
+> ~/.scripts/backup/backup_divers.sh
+	*	1568143035	0
+	"	54	0
+	^	7	2
+	.	7	1
+	+	30	27
+	+	39	65
+	+	5	1
+	+	6	1
+	+	7	1
+	+	10	30
+	+	19	27
+	+	22	37
+	+	25	37
+	+	28	30
+	+	33	75
+	+	37	30
+	+	38	35
+	+	39	26
+	+	5	1
+	+	6	1
+	+	7	1
+
+> /etc/fuse.conf
+	*	1565806873	0
+	"	5	13
+	.	5	13
+	+	8	0
+	+	5	0
+	+	8	0
+	+	5	13
+
+> /tmp/crontab.G9dwPd/crontab
+	*	1565547567	0
+	"	27	0
+
+> ~/hwe-5.0.txt
+	*	1565537211	0
+	"	2	0
+	^	2	0
+	.	1	84
+	+	1	84
+
+> /tmp/crontab.BIG6Bu/crontab
+	*	1565473915	0
+	"	26	133
+	^	26	134
+	.	26	133
+	+	26	118
+	+	26	20
+	+	26	133
+
+> /tmp/crontab.NrWcoZ/crontab
+	*	1564958276	0
+	"	26	8
+	^	26	9
+	.	26	8
+	+	26	8
+
+> /usr/local/bin/²
+	*	1564928264	0
+	"	34	4
+	^	34	18
+	.	34	4
+	+	20	23
+	+	10	3
+	+	34	3
+	+	22	58
+	+	34	4
+
+> /tmp/crontab.Us8ydS/crontab
+	*	1564837234	0
+	"	27	0
+	^	27	0
+	.	26	15
+	+	26	107
+	+	26	15
+
+> /usr/local/bin/tirelire
+	*	1564665537	0
+	"	3	1
+	^	3	2
+	.	3	1
+	+	2	104
+	+	4	0
+	+	2	196
+	+	4	0
+	+	2	279
+	+	2	119
+	+	4	25
+	+	2	64
+	+	5	0
+	+	3	0
+	+	2	1
+	+	3	51
+	+	3	176
+	+	2	0
+	+	3	1
+
+> /usr/local/bin/tire
+	*	1564662095	0
+	"	1	0
+
+> /tmp/zsh9K2PDa
+	*	1562776055	0
+	"	1	0
+
+> /usr/local/bin/tiretoi
+	*	1562447489	0
+	"	3	0
+	.	3	0
+	+	2	85
+	+	3	0
+
+> /etc/apache2/apache2.conf
+	*	1562362246	0
+	"	1	0
+
+> ~/aa
+	*	1562361681	0
+	"	11	0
+	^	11	0
+	.	5	62
+	+	10	0
+	+	4	79
+	+	5	62
+
+> ~/Todo/todo.txt
+	*	1562361521	0
+	"	1	0
+
+> /mnt/donnees/musique/.bashrc
+	*	1562356739	0
+	"	1	0
+
+> ~/films_a_voir.txt
+	*	1562351119	0
+	"	1	0
+
+> ~/.git/fzf/shell/key-bindings.bash
+	*	1562349207	0
+	"	121	0
+
+> ~/.fzf.bash
+	*	1562349122	0
+	"	13	0
+
+> /tmp/essai2.sh
+	*	1562188104	0
+	"	57	0
+	^	57	0
+	.	56	13
+	+	56	13
+
+> /tmp/essai.sh
+	*	1562178207	0
+	"	47	0
+	.	47	0
+	+	54	29
+	+	47	0
+	+	54	0
+	+	47	1
+	+	47	0
+
+> /mnt/donnees/.sauvegardes/scripts/differentielles/backup-differentiel-home-aureo.sh
+	*	1561407851	0
+	"	17	0
+
+> s/guillaume/aureo/g
+	*	1561407826	0
+	"	1	0
+
+> /mnt/donnees/.sauvegardes/scripts/differentielles/backup-differentiel-home-guillaume.sh
+	*	1561407766	0
+	"	16	1
+	^	16	2
+	.	16	1
+	+	2	55
+	+	10	44
+	+	5	18
+	+	16	84
+	+	16	232
+	+	16	344
+	+	16	146
+	+	16	22
+	+	16	152
+	+	16	1
+
+> /etc/default/keyboard
+	*	1561314157	0
+	"	8	40
+	^	8	41
+	.	8	41
+	+	8	35
+	+	8	40
+	+	9	1
+	+	8	41
+
+> ~/.xmodmap
+	*	1561314066	0
+	"	18	0
+	^	18	0
+	.	17	26
+	+	17	26
+
+> ~/.xsessionrc
+	*	1561314050	0
+	"	1	0
+
+> ~/.xsession-errors
+	*	1561313988	0
+	"	185	0
+
+> ~/.bash_logout
+	*	1561224300	0
+	"	3	1
+	^	3	2
+	.	3	1
+	+	3	1
+
+> ~/tirelire
+	*	1561224228	0
+	"	2	126
+	^	2	127
+	.	2	126
+	+	2	126
+
+> /tmp/crontab.CRiOc4/crontab
+	*	1561156200	0
+	"	24	0
+	^	24	0
+	.	23	0
+	+	1	15
+	+	23	0
+
+> ~/.xessionrc
+	*	1561155442	0
+	"	4	0
+	^	4	0
+	.	5	0
+	+	5	0
+
+> ~/.profile
+	*	1561155419	0
+	"	21	0
+	^	21	0
+	.	22	0
+	+	21	0
+	+	22	0
+
+> ~/.Xcompose
+	*	1561155255	0
+	"	57	0
+	^	57	0
+	.	56	53
+	+	56	53
+
+> /mnt/donnees/.Xcompose
+	*	1561155239	0
+	"	57	0
+	^	57	0
+	.	56	53
+	+	56	53
+
+> ~/.evrouterrc
+	*	1561054969	0
+	"	24	0
+	^	24	0
+	.	23	88
+	+	23	88
+
+> ~/.scripts/backup/backup_musique.sh
+	*	1560172624	0
+	"	1	0
+	.	13	0
+	+	9	0
+	+	13	0
+
+> ~/.bashr
+	*	1559929526	0
+	"	1	0
+
+> ~/.bash_profile
+	*	1559489290	0
+	"	4	4
+	^	5	0
+	.	4	5
+	+	4	19
+	+	2	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	4	5
+
+> /etc/sysctl.conf
+	*	1559218801	0
+	"	84	0
+	^	84	0
+	.	84	0
+	+	37	0
+	+	36	15
+	+	38	0
+	+	70	0
+	+	33	29
+	+	68	0
+	+	79	1
+	+	77	24
+	+	79	17
+	+	82	47
+	+	84	0
+	+	82	0
+	+	83	0
+	+	84	0
+
+> /tmp/crontab.kwLF5l/crontab
+	*	1555306804	0
+	"	38	104
+	^	38	105
+	.	38	104
+	+	32	0
+	+	33	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	36	0
+	+	38	104
+
+> /tmp/hosts-tmp.txt
+	*	1554545402	0
+	"	22039	0
+	.	13	0
+	+	13	0
+
+> /tmp/hosts-actuel
+	*	1554502081	0
+	"	1729	0
+	^	1729	0
+	.	52	0
+	+	52	0
+	+	8	0
+	+	2	0
+	+	38	0
+	+	41	0
+	+	52	0
+
+> /tmp/hosts-new
+	*	1554502005	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/crontab.D1V6AV/crontab
+	*	1554395814	0
+	"	35	0
+	^	35	1
+
+> /tmp/crontab.x2GZf7/crontab
+	*	1554381465	0
+	"	43	0
+
+> /tmp/crontab.nkEJHv/crontab
+	*	1554372777	0
+	"	43	0
+	.	44	0
+	+	34	0
+	+	35	0
+	+	44	0
+
+> /tmp/crontab.WXHVjD/crontab
+	*	1554332143	0
+	"	44	15
+	^	44	16
+	.	44	16
+	+	34	1
+	+	35	1
+	+	36	1
+	+	44	16
+
+> ~/langeweile.sh
+	*	1554332019	0
+	"	11	3
+	^	11	4
+	.	11	3
+	+	9	0
+	+	4	0
+	+	11	3
+
+> /tmp/hosts
+	*	1554305272	0
+	"	106	21
+	^	106	22
+	.	50	22
+	+	26	0
+	+	16	222
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	7	1
+	+	9	0
+	+	1	0
+	+	2	0
+	+	26	0
+	+	26	222
+	+	16	65
+	+	16	169
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	26	0
+	+	40	0
+	+	50	22
+
+> /tmp/calcurse-note.TOLtyn
+	*	1553712493	0
+	"	1	0
+
+> /tmp/calcurse-note.CB3ogG
+	*	1553712486	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> /usr/local/bin/webm2mp4
+	*	1553439264	0
+	"	3	18
+	^	3	28
+	.	3	28
+	+	4	0
+	+	3	0
+	+	2	0
+	+	3	28
+
+> /usr/local/bin/yoga
+	*	1552509759	0
+	"	15	0
+	.	48	0
+	+	48	0
+
+> ~/truc.sh
+	*	1552326853	0
+	"	5	0
+	^	5	0
+	.	4	4
+	+	4	4
+
+> ~/.scripts/backup/backup_DD.sh
+	*	1552316558	0
+	"	87	0
+	^	87	0
+	.	88	0
+	+	88	0
+
+> /usr/local/bin/surchambre
+	*	1552240324	0
+	"	1	95
+	^	1	96
+	.	1	95
+	+	2	86
+	+	1	95
+
+> /tmp/tru
+	*	1551029224	0
+	"	2	0
+	^	2	0
+	.	1	361
+	+	1	361
+
+> /usr/local/bin/sursyno
+	*	1550261235	0
+	"	15	25
+	^	15	26
+	.	15	25
+	+	3	1
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	1
+	+	8	0
+	+	10	0
+	+	12	0
+	+	10	0
+	+	12	0
+	+	13	47
+	+	14	0
+	+	14	47
+	+	8	1
+	+	9	1
+	+	12	0
+	+	10	62
+	+	11	1
+	+	13	1
+	+	14	0
+	+	13	0
+	+	13	1
+	+	15	1
+	+	15	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	13	72
+	+	8	2
+	+	13	0
+	+	8	0
+	+	16	4
+	+	15	7
+	+	13	0
+	+	14	0
+	+	13	1
+	+	15	25
+
+> /tmp/crontab.X6M7d1/crontab
+	*	1549966399	0
+	"	40	1
+	^	40	2
+	.	40	1
+	+	26	1
+	+	27	5
+	+	27	1
+	+	28	1
+	+	29	1
+	+	30	1
+	+	31	1
+	+	34	0
+	+	31	0
+	+	33	1
+	+	34	10
+	+	40	1
+
+> /tmp/calcurse-note.QnGilJ
+	*	1548356553	0
+	"	1	0
+
+> /tmp/crontab.C6kMuc/crontab
+	*	1547892529	0
+	"	40	1
+	^	40	2
+	.	40	1
+	+	40	1
+
+> /etc/fstab
+	*	1547502048	0
+	"	1	0
+
+> /tmp/crontab.cabhW4/crontab
+	*	1547379286	0
+	"	41	0
+	^	41	0
+	.	17	0
+	+	39	5
+	+	40	0
+	+	17	0
+
+> /tmp/crontab.OVkTwW/crontab
+	*	1547016471	0
+	"	39	0
+	^	39	0
+	.	39	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	38	0
+	+	39	0
+
+> /tmp/crontab.IJwqO5/crontab
+	*	1546209227	0
+	"	25	1
+	^	25	2
+	.	25	1
+	+	31	1
+	+	32	1
+	+	33	1
+	+	34	1
+	+	29	1
+	+	28	1
+	+	27	1
+	+	26	1
+	+	25	1
+
+> /tmp/crontab.JO2m5v/crontab
+	*	1545867750	0
+	"	40	0
+	^	40	0
+	.	4	1
+	+	4	29
+	+	38	1
+	+	4	1
+
+> ~/.pscmd.txt
+	*	1545827207	0
+	"	1	30
+	^	1	31
+	.	1	30
+	+	1	262
+	+	1	0
+	+	1	251
+	+	1	253
+	+	2	0
+	+	1	253
+	+	1	30
+
+> /home/aureo/.bashrc
+	*	1545073281	0
+	"	270	4
+	^	270	5
+	.	270	4
+	+	270	4
+
+> /tmp/fortune-temp.txt
+	*	1544885111	0
+	"	81	0
+	.	81	0
+	+	2	0
+	+	7	0
+	+	11	0
+	+	81	0
+
+> /mnt/donnees/films/typescript
+	*	1544561677	0
+	"	1	0
+
+> /tmp/calcurse-note.GILSs4
+	*	1543516652	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	25
+
+> ~/.calcurse/conf
+	*	1543163898	0
+	"	20	0
