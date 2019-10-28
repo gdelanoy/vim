@@ -25,6 +25,7 @@
 "
 set nu
 set nocompatible
+set mouse-=a 
 filetype off 
 " filetype plugin indent on
 syntax enable
