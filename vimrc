@@ -61,6 +61,7 @@ set ruler
 set showcmd
 set incsearch
 set backspace=indent,eol,start
+set directory=$HOME/.vim/swap/
 
 runtime! config/**/*.vim
 
