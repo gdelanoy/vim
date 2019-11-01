@@ -61,8 +61,6 @@ set ruler
 set showcmd
 set incsearch
 set backspace=indent,eol,start
-set directory=$HOME/.vim/swap/
-
 
 "split navigations
 set splitbelow
