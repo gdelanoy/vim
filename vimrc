@@ -1,6 +1,6 @@
+"  CONSIGNES D'INSTALLATION
 "
-"
-" cd ~  
+" cd ~
 " mkdir -p ~/.vim/{autoload,colors,syntax,plugin,spell,config}
 " mv .vimrc .vim/vimrc
 " ln -s .vim/vimrc .vimrc
@@ -18,15 +18,15 @@
  "cd ~/.vim
 " mkdir -p bundle
 " cd bundle
-" 
+"
 " git clone https://github.com/scrooloose/nerdtree.git nerdtree
 "
-" Un autre : 
+" Un autre :
 "
 set nu
 set nocompatible
-set mouse-=a 
-filetype off 
+set mouse-=a
+filetype off
 " filetype plugin indent on
 syntax enable
 
@@ -63,6 +63,82 @@ set incsearch
 set backspace=indent,eol,start
 set directory=$HOME/.vim/swap/
 
+
+"split navigations
+set splitbelow
+set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+" Enable folding with the spacebar
+ nnoremap <space> za
+ let g:SimpylFold_docstring_preview=1
+
+ set encoding=utf-8
+ let g:ycm_autoclose_preview_window_after_completion=1
+ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+let g:AutoPairsFlyMode = 1
+" Syntastic
+ set statusline+=%#warningmsg#
+ set statusline+=%*
+ let g:syntastic_always_populate_loc_list = 1
+ let g:syntastic_auto_loc_list = 1
+ let g:syntastic_check_on_open = 1
+ let g:syntastic_check_on_wq = 0
+
+
+" Preconfig
+
+" Remove any trailing whitespace that is in the file
+autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
+
+" Restore cursor position to where it was before
+augroup JumpCursorOnEdit
+   au!
+   autocmd BufReadPost *
+            \ if expand("<afile>:p:h") !=? $TEMP |
+            \   if line("'\"") > 1 && line("'\"") <= line("$") |
+            \     let JumpCursorOnEdit_foo = line("'\"") |
+            \     let b:doopenfold = 1 |
+            \     if (foldlevel(JumpCursorOnEdit_foo) > foldlevel(JumpCursorOnEdit_foo - 1)) |
+            \        let JumpCursorOnEdit_foo = JumpCursorOnEdit_foo - 1 |
+            \        let b:doopenfold = 2 |
+            \     endif |
+            \     exe JumpCursorOnEdit_foo |
+            \   endif |
+            \ endif
+   " Need to postpone using "zv" until after reading the modelines.
+   autocmd BufWinEnter *
+            \ if exists("b:doopenfold") |
+            \   exe "normal zv" |
+            \   if(b:doopenfold > 1) |
+            \       exe  "+".1 |
+            \   endif |
+            \   unlet b:doopenfold |
+            \ endif
+augroup END
+
+" See your crazy vim ninja cmds
+set showcmd
+" Allow backspacing over everything in INSERT mode
+set backspace=indent,eol,start
+
+" Show ruler and command visual aid
+set ruler
+
+" Make use of the "status line" to show possible completions of command line commands,
+" file names, and more. Allows to cycle forward and backward throught the list.
+" This is called the "wild menu".
+ set wmnu
+
+" Turn off beeping
+set vb
+
 runtime! config/**/*.vim
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -87,7 +163,7 @@ nnoremap <silent> <Leader>v :call fzf#run({
 " d'éditer (il faut être sudoer, évidemment ! ) :
 "
 cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
- 
+
 " Key bindings : pour des raccourcis de touches simplifiés / personnalisés :
 "
 "
@@ -184,4 +260,3 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 colorscheme molokai
-
