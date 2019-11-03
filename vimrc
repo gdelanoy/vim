@@ -57,7 +57,6 @@ set textwidth=0
 set wrapmargin=0
 set formatoptions+=1
 set hlsearch
-set ruler
 set showcmd
 set incsearch
 set backspace=indent,eol,start
@@ -88,7 +87,6 @@ let g:AutoPairsFlyMode = 1
  let g:syntastic_auto_loc_list = 1
  let g:syntastic_check_on_open = 1
  let g:syntastic_check_on_wq = 0
-
 
 " Preconfig
 
@@ -198,7 +196,6 @@ let g:fzf_action = {
 "
 
 map ² :Files<CR>
-map <C-a> :NERDTree<CR>
 map <C-z> :NERDTreeToggle<CR>
 
 map <C-p> :FzfFiles<CR>
@@ -217,7 +214,7 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
-"
+"aaaaaaaaaa:
 " space open/closes folds
 nnoremap <space> za
 "
