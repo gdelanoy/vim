@@ -61,6 +61,8 @@ set showcmd
 set incsearch
 set backspace=indent,eol,start
 
+set pastetoggle=<F2>
+
 "split navigations
 set splitbelow
 set splitright
