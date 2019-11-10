@@ -82,11 +82,12 @@ set pastetoggle=<F2>
 set splitbelow
 set splitright
 
-" I don't remember what these are good for :/
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+" I don't remember what these are good for :-/ :
+" nnoremap <C-J> <C-W><C-J>
+" nnoremap <C-K> <C-W><C-K>
+" nnoremap <C-L> <C-W><C-L>
+" nnoremap <C-H> <C-W><C-H>
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
