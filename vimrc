@@ -21,15 +21,30 @@
 "
 " git clone https://github.com/scrooloose/nerdtree.git nerdtree
 "
-" Un autre :
-"
 set nu
 set nocompatible
+
+" Menus I like :-)
+" This must happen before the syntax system is enabled
+aunmenu Help.
+aunmenu Window.
+let no_buffers_menu=1
+set mousemodel=popup
+
+" Better modes.  Remeber where we are
+set viminfo=!,'100,\"100,:20,<50,s10,h,n~/.viminfo
+
+" The PC is fast enough, do syntax highlight syncing from start
+autocmd BufEnter * :syntax sync fromstart
+
+
+
 set mouse-=a
 filetype off
 " filetype plugin indent on
 syntax enable
 
+" I want spaces instead of tabs
 set tabstop=4
 set softtabstop=4
 set smarttab
@@ -66,6 +81,8 @@ set pastetoggle=<F2>
 "split navigations
 set splitbelow
 set splitright
+
+" I don't remember what these are good for :/
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
