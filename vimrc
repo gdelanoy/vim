@@ -21,6 +21,12 @@
 "
 " git clone https://github.com/scrooloose/nerdtree.git nerdtree
 "
+
+" git clone https://github.com/VundleVim/Vundle.vim.git
+" ~/.vim/bundle/Vundle.vim
+"
+" Une fois ceci fait, lance la commande :PluginUpdate dans vim, et relance-le.
+
 set nu
 set nocompatible
 
@@ -36,8 +42,6 @@ set viminfo=!,'100,\"100,:20,<50,s10,h,n~/.viminfo
 
 " The PC is fast enough, do syntax highlight syncing from start
 autocmd BufEnter * :syntax sync fromstart
-
-
 
 set mouse-=a
 filetype off
@@ -64,7 +68,7 @@ set foldmethod=indent   " fold based on indent level
 
 set signcolumn=yes
 set hidden
-set background=dark
+set background=light
 set expandtab
 set wrap linebreak nolist
 set cc=85
@@ -272,4 +276,4 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme molokai
+colorscheme peachpuff
