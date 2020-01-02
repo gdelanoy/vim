@@ -68,7 +68,7 @@ set foldmethod=indent   " fold based on indent level
 
 set signcolumn=yes
 set hidden
-set background=light
+set background=dark
 set expandtab
 set wrap linebreak nolist
 set cc=85
@@ -276,4 +276,4 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme peachpuff
+colorscheme molokai
