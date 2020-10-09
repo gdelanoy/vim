@@ -48,11 +48,7 @@ filetype off
 " filetype plugin indent on
 syntax enable
 
-" I want spaces instead of tabs
-set tabstop=4
-set softtabstop=4
-set smarttab
-
+" Options diverses et variées  :
 set cursorline
 set wildmenu
 set wildmode=longest:list
@@ -60,7 +56,6 @@ set modeline
 set showmatch
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-
 set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
@@ -79,18 +74,118 @@ set hlsearch
 set showcmd
 set incsearch
 set backspace=indent,eol,start
-
 set pastetoggle=<F2>
 
 "split navigations
 set splitbelow
 set splitright
 
-" I don't remember what these are good for :-/ :
-" nnoremap <C-J> <C-W><C-J>
-" nnoremap <C-K> <C-W><C-K>
-" nnoremap <C-L> <C-W><C-L>
-" nnoremap <C-H> <C-W><C-H>
+set history=10000
+set title
+
+" Désactiver les options de swap et de backup
+set directory=$HOME/.vim/swap//
+set backupdir=$HOME/.vim/.backup//
+" "set nobackup
+set nowb
+
+" Indentation :
+set autoindent
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set nowrap
+set smarttab
+set softtabstop=4
+
+" Search options :
+
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+" Text-rendering options :
+
+set linebreak
+set spell
+
+set undofile   " Maintain undo history between sessions
+set undodir=$HOME/.vim/undodir
+
+
+" Remapping de touches :
+"
+" Déplacer la ligne en cours vers le haut ou vers le bas :
+"
+
+nnoremap <c-j> :m .+1<CR>==
+nnoremap <c-k> :m .-2<CR>==
+inoremap <c-j> <Esc>:m .+1<CR>==gi
+inoremap <c-k> <Esc>:m .-2<CR>==gi
+vnoremap <c-j> :m '>+1<CR>gv=gv
+vnoremap <c-k> :m '<-2<CR>gv=gv
+
+" La touche Leader est le ² :
+"
+
+let g:mapleader='²'
+
+" Effacer la ligne courante :
+nnoremap <leader>d dd
+" Recopier le paragraphe en cours :
+nnoremap <leader>cp yap<S-}>p
+" Indenter tout le paragraphe en cours :
+nnoremap <leader>a ip
+" Quitter vim :
+noremap <leader>q :q!<cr>
+noremap <leader>x :wq<cr>
+" Enregistrer :
+nnoremap <leader>w :w<cr>
+inoremap <leader>w <C-c>:w<cr>
+"
+" Les abréviations peuvent corriger tes fautes de frappe, ou automatiser ta
+" frappe :
+"
+
+abbr g² Guillaume
+
+" Copy & paste to system clipboard with <Leader>p and <Leader>y:
+
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
+" Type <Leader>o to open a new file:
+
+nnoremap <Leader>o :CtrlP<CR>
+
+" Enter visual line mode with <Leader><Leader>:
+
+nmap <Leader><Leader> V
+
+"replace the word under cursor
+nnoremap <leader>* :%s/\<<c-r><c-w>\>//g<left><left>
+
+"autoclose tags
+inoremap ( ()<Left>
+inoremap { {}<Left>
+inoremap [ []<Left>
+"inoremap " ""<Left>
+
+" This allows me to use the following search-and-replace flow:
+"
+"    I search things usual way using /something
+"    I hit cs, replace first match, and hit <Esc>
+"    I hit n.n.n.n.n. reviewing and replacing all matches
+
+vnoremap <silent> s //e<C-r>=&selection=='exclusive'?'+1':''<CR><CR>
+    \:<C-u>call histdel('search',-1)<Bar>let @/=histget('search',-1)<CR>gv
+omap s :normal vs<CR>
 
 " Enable folding
 set foldmethod=indent
@@ -139,7 +234,6 @@ augroup JumpCursorOnEdit
             \   if(b:doopenfold > 1) |
             \       exe  "+".1 |
             \   endif |
-            \   unlet b:doopenfold |
             \ endif
 augroup END
 
@@ -194,7 +288,7 @@ let g:fzf_action = {
 " Default fzf layout
 " " - down / up / left / right
  let g:fzf_layout = { 'down': '~30%' }
-"
+
 " " In Neovim, you can set up fzf window using a Vim command
 " let g:fzf_layout = { 'window': 'enew' }
 " let g:fzf_layout = { 'window': '-tabnew' }
@@ -219,15 +313,15 @@ let g:fzf_action = {
 " Key Bindings :
 "
 
-map ² :Files<CR>
+map <C-f> :Files<CR>
 map <C-z> :NERDTreeToggle<CR>
 
-map <C-p> :FzfFiles<CR>
-map <C-g> :FzfAg<CR>
-map <C-l> :FzfLines<CR>
-map <C-s> :OverCommandLine :%s/<CR>
+" map <C-p> :FzfFiles<CR>
+" map <C-g> :FzfAg<CR>
+" map <C-l> :FzfLines<CR>
+" map <C-s> :OverCommandLine :%s/<CR>
 
-" Insert mode completion
+"Insert mode completion
 " imap <c-x><c-k> <plug>(fzf-complete-word)
  imap <c-x><c-f> <plug>(fzf-complete-path)
  imap <c-x><c-j> <plug>(fzf-complete-file-ag)
