@@ -109,7 +109,7 @@ set smartcase
 " Text-rendering options :
 
 set linebreak
-set spell
+" set spell
 
 set undofile   " Maintain undo history between sessions
 set undodir=$HOME/.vim/undodir
