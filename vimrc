@@ -60,6 +60,10 @@ set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
 set foldmethod=indent   " fold based on indent level
+set whichwrap=<,>,[,]]
+set nostartofline
+set wildmode=list:full
+set expandtab
 
 set signcolumn=yes
 set hidden
@@ -98,6 +102,16 @@ set expandtab
 set nowrap
 set smarttab
 set softtabstop=4
+
+" " Le découpage des folders se base sur l'indentation
+set foldmethod=indent
+" " 12 niveaux d'indentation par défaut pour les folders
+set foldlevel=12
+"
+
+" Correction orthographique en français :
+" set spelllang=fr
+" set spell
 
 " Search options :
 
@@ -371,3 +385,4 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 colorscheme molokai
+
