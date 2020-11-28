@@ -267,11 +267,18 @@ set ruler
 " Turn off beeping
 set vb
 
+" Copier-coller avec F12 :
+set pastetoggle=<F12>
+
+
 runtime! config/**/*.vim
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+
+" Plugin 'neoclide/coc.nvim'
+", {'branch': 'release'}}
 "
 " Initialisation de pathogen
  call pathogen#infect()
@@ -371,8 +378,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'mileszs/ack.vim'
 Plugin 'wokalski/autocomplete-flow'
-
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 let NERDTreeShowHidden=1
 let g:autocomplete_flow#insert_paren_after_function = 0
