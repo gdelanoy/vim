@@ -159,6 +159,9 @@ noremap <leader>x :wq<cr>
 nnoremap <leader>w :w<cr>
 inoremap <leader>w <C-c>:w<cr>
 "
+nnoremap <silent> <leader>f :FZF<cr>
+nnoremap <silent> <leader>F :FZF ~<cr>
+
 " Les abréviations peuvent corriger tes fautes de frappe, ou automatiser ta
 " frappe :
 "
@@ -337,9 +340,9 @@ let g:fzf_action = {
 map <C-f> :Files<CR>
 map <C-z> :NERDTreeToggle<CR>
 
-" map <C-p> :FzfFiles<CR>
-" map <C-g> :FzfAg<CR>
-" map <C-l> :FzfLines<CR>
+map <C-p> :FzfFiles<CR>
+map <C-g> :FzfAg<CR>
+map <C-l> :FzfLines<CR>
 " map <C-s> :OverCommandLine :%s/<CR>
 
 "Insert mode completion
