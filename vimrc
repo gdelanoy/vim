@@ -381,9 +381,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'mileszs/ack.vim'
 Plugin 'wokalski/autocomplete-flow'
-" Plugin 'Valloric/YouCompleteMe'
 Plugin 'vimwiki/vimwiki'
-
 let NERDTreeShowHidden=1
 let g:autocomplete_flow#insert_paren_after_function = 0
 
