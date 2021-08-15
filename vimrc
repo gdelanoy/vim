@@ -36,6 +36,8 @@ aunmenu Help.
 aunmenu Window.
 let no_buffers_menu=1
 set mousemodel=popup
+set autowrite
+set scrolloff=3
 
 " Better modes.  Remeber where we are
 set viminfo=!,'100,\"100,:20,<50,s10,h,n~/.viminfo
@@ -64,7 +66,6 @@ set whichwrap=<,>,[,]]
 set nostartofline
 set wildmode=list:full
 set expandtab
-
 set signcolumn=yes
 set hidden
 set background=dark
@@ -114,20 +115,16 @@ set foldlevel=12
 " set spell
 
 " Search options :
-
 set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 
 " Text-rendering options :
-
 set linebreak
-" set spell
 
 set undofile   " Maintain undo history between sessions
 set undodir=$HOME/.vim/undodir
-
 
 " Remapping de touches :
 "
@@ -166,7 +163,129 @@ nnoremap <silent> <leader>F :FZF ~<cr>
 " frappe :
 "
 
+abbr dng² Bien cordialement,\n\n-\nGuillaume Delanoy\nguillaume@delanoy.fr
+abbr dmg² Bien cordialement,\n\n-\nGuillaume Delanoy\ngdelanoy@gmail.com
+abbr ? ¿
+abbr sz² ß
+abbr c² ©
+abbr cr² ®
+abbr ç² Ç
+abbr é² É
+abbr è² È
+abbr ù² Ù
+abbr à² À
+abbr ae² æ
+abbr oe² œ
+abbr aa² Aurélie-Anne
+abbr adg² 16 / 6, square Jean Monnet 59120 Loos
+abbr ajd² aujourd'hui
+abbr bisou² (づ￣ ³￣)づ
+abbr bjr² bonjour
+abbr d² Delanoy
+abbr enlum² (((¯`·._.·(¯`·._.· Text ·._.·´¯)·._.·´¯)))
 abbr g² Guillaume
+abbr gd² Guillaume Delanoy
+abbr gdm² guillaume@delanoy.fr
+abbr ge² ¯\\_(ツ)_/¯
+abbr ggm² gdelanoy@gmail.com
+abbr magie² (∩｀-´)⊃━☆ﾟ.･｡☆ﾟ.･｡ﾟ)
+abbr meh² ╭∩╮（︶︿︶）╭∩╮
+abbr r² répondre à
+abbr table² (╯°□°）╯︵ ┻━┻)
+abbr zik² ¸¸♬·¯·♩¸¸♪·¯·♫¸¸Happy Birthday !¸¸♬·¯·♩¸¸♪·¯·♫¸¸
+abbr ;)² 😉
+abbr :/² 😕
+abbr :)² 😃
+abbr alien² 👽
+abbr angel² 😇
+abbr apes² 🙈 🙉 🙊
+abbr arbre² 🌳
+abbr arm² 💪
+abbr beer² 🍻
+abbr biohazard² ☣
+abbr biz² 😘
+abbr boom² 💥
+abbr brain² 🧠
+abbr bwa² 🤪
+abbr cat² 🐈
+abbr champ² 🍾
+abbr check² ✔
+abbr clap² 👏
+abbr clown² 🤡
+abbr cold² 🥶
+abbr culture² 🧐
+abbr de² 🇩🇪
+abbr devil² 😈
+abbr dizzy² 🥴
+abbr down² 👇
+abbr eyes² 👀
+abbr fear² 😱
+abbr fire² 🔥
+abbr fist² ✊
+abbr fmoon² 🌝
+abbr fr² 🇫🇷
+abbr frite² 🍟
+abbr fuck² 🖕
+abbr fusee² 🚀
+abbr gb² 🇬🇧
+abbr gyro² 🚨
+abbr heart² 💖
+abbr heyes² 😍
+abbr hot² 🥵
+abbr hug² 🤗
+abbr kiss² 💋
+abbr left² 👈
+abbr lol² 😄
+abbr lys² ⚜
+abbr mask² 😷
+abbr metal² 🤘
+abbr mindblown² 🤯
+abbr money² 💰
+abbr nerd² 🤓
+abbr no² ⛔
+abbr notes² 🎶
+abbr nuclear² ☢
+abbr ok² 👌
+abbr om² 🕉
+abbr party² 🥳
+abbr party² 🥳
+abbr pasta² 🍝
+abbr peace² ☮
+abbr phone² ☎
+abbr pig² 🐽
+abbr poop² 💩
+abbr popcorn² 🍿
+abbr pray² 🙏
+abbr rage² 🤬
+abbr raja² 🧘
+abbr right² 👉
+abbr rofl² 🤣
+abbr rose² 🌹
+abbr santa² 🎅
+abbr shiny² ✨
+abbr skull² ☠
+abbr smirk² 😏
+abbr sob² 😭
+abbr star² 🌠
+abbr sunglass² 😎
+abbr sushi² 🍣
+abbr swag² 😅
+abbr tada² 🎉
+abbr think² 🤔
+abbr titre² 📙
+abbr trek² 🖖
+abbr unicorn² 🦄
+abbr up² 👆
+abbr us² 🇺🇸
+abbr vomit² 🤮
+abbr wave² 👋
+abbr wink² 😉
+abbr world² 🌍
+abbr wut² 😳
+abbr (y) 👍
+abbr yum² 😋
+abbr zombie² 🧟
+abbr zzz² 💤
 
 " Copy & paste to system clipboard with <Leader>p and <Leader>y:
 
@@ -313,43 +432,21 @@ let g:fzf_action = {
 " " - down / up / left / right
  let g:fzf_layout = { 'down': '~30%' }
 
-" " In Neovim, you can set up fzf window using a Vim command
-" let g:fzf_layout = { 'window': 'enew' }
-" let g:fzf_layout = { 'window': '-tabnew' }
-" let g:fzf_layout = { 'window': '10new' }
-"
-" " Customize fzf colors to match your color scheme
-" let g:fzf_colors =
-"{ 'fg':      ['fg', 'Normal'],
-" 'bg':      ['bg', 'Normal'],
-"   'hl':      ['fg', 'Comment'],
-"   'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-"   'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-"   'hl+':     ['fg', 'Statement'],
-"   'info':    ['fg', 'PreProc'],
-"   'border':  ['fg', 'Ignore'],
-"   'prompt':  ['fg', 'Conditional'],
-"   'pointer': ['fg', 'Exception'],
-"   'marker':  ['fg', 'Keyword'],
-"   'spinner': ['fg', 'Label'],
-"  \ 'header':  ['fg', 'Comment'] }
-"
 " Key Bindings :
 "
-
 map <C-f> :Files<CR>
 map <C-z> :NERDTreeToggle<CR>
 
-map <C-p> :FzfFiles<CR>
-map <C-g> :FzfAg<CR>
-map <C-l> :FzfLines<CR>
+" map <C-p> :FzfFiles<CR>
+" map <C-g> :FzfAg<CR>
+" map <C-l> :FzfLines<CR>
 " map <C-s> :OverCommandLine :%s/<CR>
-
+"
 "Insert mode completion
 " imap <c-x><c-k> <plug>(fzf-complete-word)
- imap <c-x><c-f> <plug>(fzf-complete-path)
- imap <c-x><c-j> <plug>(fzf-complete-file-ag)
- imap <c-x><c-l> <plug>(fzf-complete-line)
+" imap <c-x><c-f> <plug>(fzf-complete-path)
+" imap <c-x><c-j> <plug>(fzf-complete-file-ag)
+" imap <c-x><c-l> <plug>(fzf-complete-line)
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
@@ -368,7 +465,7 @@ nnoremap E $
  let g:ctrlp_match_window = 'bottom,order:ttb'
  let g:ctrlp_switch_buffer = 0
  let g:ctrlp_working_path_mode = 0
- let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+" let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 "
 
 " Les Plugins avec Vundle (mieux que Pathogen ? ) :
@@ -382,6 +479,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'mileszs/ack.vim'
 Plugin 'wokalski/autocomplete-flow'
 Plugin 'vimwiki/vimwiki'
+
 let NERDTreeShowHidden=1
 let g:autocomplete_flow#insert_paren_after_function = 0
 
